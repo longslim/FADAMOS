@@ -1,0 +1,18 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --footer-bg: #f2f2f2;
+  --footer-text: #111;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --footer-bg: #1c1c1c;
+  --footer-text: #ccc;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
