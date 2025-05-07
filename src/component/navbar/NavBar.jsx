@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./NavBar.css"
+import "./navBar.css"
 import store_logo from "/store_logo.jpg"
 import { NavLink } from 'react-router-dom'
 import { FiMenu, FiX } from "react-icons/fi"
